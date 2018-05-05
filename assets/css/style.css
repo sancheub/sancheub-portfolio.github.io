@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+  .widebox1 {
+      position: relative;
+      height: 60px;
+      background: lightslategrey;
+  }
+
+  .boxcenter {
+    position: relative;
+    width: 960px;
+    height: 60px;
+    background: transparent;
+    margin: auto;
+  }
+
+  .box {
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    padding-top: 22px;
+    background: lightgray;
+    font-size: 18px;
+  }
+
+  .boxname {
+    text-align: center;
+    top: 0%;
+    left: 0%;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .boxabout {
+    text-align: center;
+    top: 0;
+    right: 302px;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .boxportfolio {
+    text-align: center;
+    top: 0;
+    right: 151px;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .boxcontact {
+    text-align: center;
+    top: 0;
+    right: 0px;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .masterbox {
+    width: 900px;
+    height: 900px;
+    background: darkred;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    color: gainsboro;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  .absolute {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+  }
+
+  /*-- PORTFOLIO --*/
+
+  .absoluteport1 {
+    position: absolute;
+    top: 140px;
+    left: 75px;
+  }
+  .absoluteport2 {
+    position: absolute;
+    top: 140px;
+    right: 75px;
+  }
+
+  .absoluteport3 {
+    position: absolute;
+    top: 500px;
+    left: 75px;
+  }
+
+  .absoluteport4 {
+    position: absolute;
+    top: 500px;
+    right: 75px;
+  }
+
+  .absolutelabel{
+    position: absolute;
+    text-align: center;
+    width: 280px;
+    background-color: orangered;
+    bottom: 20px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 75px;
+    color: gainsboro;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 40px;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+
+  #description {
+    margin-left: 380px;
+    margin-right: 45px;
+    margin-top: -80px;
+    text-align: justify;
+    line-height: 2.4;
+  }
+
+  .foot {
+    width: 100%;
+    position: fixed;
+    height: 40px;
+    padding-top: 20px;
+    bottom: 0px;
+    background: lightslategrey;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.prefoot {
+  width: 100%;
+  position: absolute;
+  height: 5px;
+  top: 0%;
+  background: orangered;
+}
+
+.form0{
+  margin-top:30px;
+}
+.inputarea{
+  width: 600px;
+  height: 30px;
+}
+
+.messagearea{
+  width: 600px;
+  height: 200px;
+}
